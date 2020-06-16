@@ -23,10 +23,10 @@
 <h3>Dodaj film:</h3>
 
 
-<form method="POST" action="/languages" enctype="multipart/form-data">
+<form method="POST" action="/films" enctype="multipart/form-data">
     @csrf
     <div class="form-group">
-        <label for="title<"> Naziv jezika:</label>
+        <label for="title<"> Naziv filma:</label>
         <br>
         <input maxlength="128" type="text" name="title<" required="true"
                value=""><br>
@@ -94,7 +94,7 @@ Name=updated_at<|||>OldName=updated_at<|||>DataType=22<|||>OldDataType=50<|||>Le
         
     </div>
     <div class="form-group">
-        <input type="submit" name="actor_sbm" value="Dodaj novi jezik">
+        <input type="submit" name="actor_sbm" value="Dodaj novi film">
     </div>
 </form>
 
